@@ -3,12 +3,12 @@
 in {
   colorschemes = {
     base16 = {
-      enable = true;
+      enable = false;
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
     gruvbox = {
-      enable = false;
+      enable = true;
       settings = {
         transparent_mode = true;
       };
@@ -86,7 +86,7 @@ in {
           light = "macchiato";
           dark = "mocha";
         };
-        flavour = "machiato"; # "latte", "mocha", "frappe", "macchiato" or raw lua code
+        flavour = "macchiato"; # "latte", "mocha", "frappe", "macchiato" or raw lua code
         disableBold = false;
         disableItalic = false;
         disableUnderline = false;

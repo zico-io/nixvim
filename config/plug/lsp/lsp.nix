@@ -12,7 +12,12 @@
         pyright = {enable = true;};
         gopls = {enable = true;};
         terraformls = {enable = true;};
-        tsserver = {enable = false;};
+        tsserver = {enable = true;};
+	rust-analyzer = {
+	  enable = true;
+	  installRustc = true; 
+	  installCargo = true;
+	};
         yamlls = {
           enable = true;
         };

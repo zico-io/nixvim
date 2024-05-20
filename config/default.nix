@@ -51,6 +51,7 @@
     ./plug/utils/grapple.nix
     ./plug/utils/illuminate.nix
     ./plug/utils/nvim-autopairs.nix
+    ./plug/utils/surround.nix
     ./plug/utils/oil.nix
     ./plug/utils/track.nix
     ./plug/utils/undotree.nix

@@ -271,6 +271,13 @@
       options = {desc = "Allow search terms to stay in the middle ";};
     }
 
+    {
+      mode = "n";
+      key = "ys";
+      action = "ys";
+      options = { desc = "Surround current"; };
+    }
+
     # Paste stuff without saving the deleted word into the buffer
     {
       mode = "x";

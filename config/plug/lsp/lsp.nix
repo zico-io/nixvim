@@ -12,6 +12,7 @@
         pyright = {enable = true;};
         gopls = {enable = true;};
         terraformls = {enable = true;};
+        tailwindcss = {enable = true;};
         tsserver = {enable = true;};
 	rust-analyzer = {
 	  enable = true;

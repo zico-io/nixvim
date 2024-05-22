@@ -97,6 +97,16 @@
 
     {
       mode = "n";
+      key = "<leader>fo";
+      action = "<cmd>Neotree filesystem reveal right<cr>";
+      options = {
+        silent = true;
+        desc = "Open file tree pane";
+      };
+    }
+
+    {
+      mode = "n";
       key = "<leader>wd";
       action = "<C-W>c";
       options = {

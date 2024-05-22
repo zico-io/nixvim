@@ -36,8 +36,10 @@
     #./plug/treesitter/treesitter-context.nix
     ./plug/treesitter/treesitter-textobjects.nix
     ./plug/treesitter/treesitter.nix
+    ./plug/treesitter/ts-autotag.nix
 
     #./plug/ui/alpha.nix
+    ./plug/ui/neo-tree.nix
     ./plug/ui/btw.nix
     ./plug/ui/bufferline.nix
     ./plug/ui/noice.nix

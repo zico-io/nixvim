@@ -98,7 +98,8 @@
     {
       mode = "n";
       key = "<leader>fo";
-      action = "<cmd>Neotree filesystem reveal right<cr>";
+      # action = "<cmd>Neotree action=focus reveal toggle right<cr>";
+      action = "<cmd>NvimTreeFindFileToggle<CR>";
       options = {
         silent = true;
         desc = "Open file tree pane";
@@ -285,7 +286,7 @@
       mode = "n";
       key = "ys";
       action = "ys";
-      options = { desc = "Surround current"; };
+      options = {desc = "Surround current";};
     }
 
     # Paste stuff without saving the deleted word into the buffer

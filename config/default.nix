@@ -39,7 +39,8 @@
     ./plug/treesitter/ts-autotag.nix
 
     #./plug/ui/alpha.nix
-    ./plug/ui/neo-tree.nix
+    # ./plug/ui/neo-tree.nix
+    ./plug/ui/nvimtree.nix
     ./plug/ui/btw.nix
     ./plug/ui/bufferline.nix
     ./plug/ui/noice.nix
@@ -63,7 +64,7 @@
   options = {
     theme = lib.mkOption {
       default = "paradise";
-      type = lib.types.enum [ "mocha" "macchiato" "latte" "frappe" "paradise" "decay" "mountain" "tokyonight" "everforest" "everblush" "jellybeans" "aquarium" "gruvbox"];
+      type = lib.types.enum ["mocha" "macchiato" "latte" "frappe" "paradise" "decay" "mountain" "tokyonight" "everforest" "everblush" "jellybeans" "aquarium" "gruvbox"];
     };
   };
   config = {

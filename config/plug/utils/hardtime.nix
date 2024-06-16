@@ -1,10 +1,10 @@
 {
   plugins.hardtime = {
-    enable = false;
-    enabled = true;
+    enable = true;
     disableMouse = true;
-    disabledFiletypes = ["Oil"];
+    disabledFiletypes = ["Oil" "qf" "netrw" "NvimTree" "mason" "lazy"];
     hint = true;
+    allowDifferentKey = true;
     maxCount = 4;
     maxTime = 1000;
     restrictionMode = "hint";
